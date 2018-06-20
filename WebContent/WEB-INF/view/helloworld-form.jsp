@@ -5,7 +5,11 @@
 </head>
 
 <body>
-	<form action="processForm" method="GET">
+	
+	<!-- the value for action is referring to the requestmapping for
+	the letsShoutMethod in HelloWorldController -->
+	
+	<form action="processFormVersionTwo" method="GET">
 		
 		<input type="text" name="studentName"
 			placeholder="What's your name?"/>
