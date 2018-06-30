@@ -3,6 +3,7 @@
 	<name>spring-mvc-demo</name>
 	<comment></comment>
 	<projects>
+		<project>LiangLiang</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

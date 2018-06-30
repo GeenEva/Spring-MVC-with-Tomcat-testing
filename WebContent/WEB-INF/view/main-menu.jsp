@@ -1,12 +1,31 @@
+
 <!DOCTYPE html>
 
 <html>
+
+
+ <STYLE type="text/css">
+  BODY {text-align: center}
+ </STYLE>
+
 <body>
-<h2> Spring MVC Demo - Looking Great! </h2>
+	
+	<!-- This is the text you see in the beginning -->
+	<h2> Spring MVC Demo - Looking Great! You are so amazing! </h2>
 
-<hr>
-
-<a href="showForm"> Hello World Form</a>
+	<hr>
+	<!-- This is the link, you click on the words 'Hello World Form'-->
+	<!-- When you click on it you go to the showForm -->
+	<a href="showForm"> Hello World Form</a>
+	
+	<br><br>
+	
+	 <img width = 30% src="<%= request.getContextPath() %>/resources/images/Aevy-logo.png"/>
+	
+	<!-- Deze werkt ook, maar blijft annoying rood kruisje in package explorer: 
+	<img width = 30%
+	 src="${pageContext.request.contextPath}/resources/images/Aevy-logo.png" -->
+	 
 
 </body>
 
