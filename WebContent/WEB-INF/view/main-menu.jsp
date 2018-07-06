@@ -16,7 +16,7 @@
 	<hr>
 	<!-- This is the link, you click on the words 'Hello World Form'-->
 	<!-- When you click on it you go to the showForm -->
-	<a href="showForm"> Hello World Form</a>
+	<a href="hello/showForm"> Hello World Form</a>
 	
 	<br><br>
 	
