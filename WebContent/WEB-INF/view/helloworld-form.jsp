@@ -5,23 +5,29 @@
 	<title>Hello World - Input Form</title>
 	<%
  
-String bgColor = "PINK";
-String myColor = request.getParameter("color");
+	String bgColor = "PINK";
+	String myColor = request.getParameter("color");
  
-if (myColor != null){
-myColor = myColor;
-}
-else{
-myColor = bgColor;
-}
+	if (myColor != null){
+	myColor = myColor;
+	}
+	else{
+	myColor = bgColor;
+	}
  
-%>
+	%>
   
-<BODY BGCOLOR="<%= myColor %>">
+	<BODY BGCOLOR="<%= myColor %>">
+
+
 </head>
 
+<STYLE type="text/css">
+  BODY {text-align: center}
+ </STYLE>
+
 <body>
-	
+	<br><br>
 	<!-- the value for action is referring to the requestmapping for
 	the letsShoutMethod in HelloWorldController -->
 	
@@ -41,7 +47,18 @@ myColor = bgColor;
 			
 		<input type="submit"/>
 	</form>
-
+	
+	<form action="processFormVersionFour" method="GET">
+	
+		<input type="text" name="studentName"
+			placeholder="Wasje naam?" size=80/>
+			
+		<input type="submit"/>
+	</form>
+	
+	<br><br>
+	<img width = 30% src="<%= request.getContextPath() %>/resources/images/Aevy-logo.png"/>
 </body>
 
+	
 </html>

@@ -20,7 +20,7 @@
 	
 	<br><br>
 	
-	 <img width = 30% src="<%= request.getContextPath() %>/resources/images/Aevy-logo.png"/>
+	 <img width = 30% src="<%= request.getContextPath() %>/resources/images/cute.png"/>
 	
 	<!-- Deze werkt ook, maar blijft annoying rood kruisje in package explorer: 
 	<img width = 30%
